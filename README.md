@@ -165,8 +165,7 @@ towards the center since the recording was not symmetrically
 centered making the animation in the gif asset seem more at the
 bottom.
 
-![](changefly1.gif)
-<img src="changelfy1.gif" width="256" height="256">
+![](changefly1.gif width="256" height="256")
 
 ## launch_screen3.dart
 
