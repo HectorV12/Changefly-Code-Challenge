@@ -5,6 +5,7 @@ A ChangeFly Code Challenge in Flutter.
 Result:
  
 ![](Changefly.gif)
+<img src="Changefly.gif" width="70" height="150" />
 
 This Flutter App has 4 different Launch Screens (or Splash Screens)
 each with different styles
