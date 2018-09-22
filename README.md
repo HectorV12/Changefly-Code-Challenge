@@ -247,7 +247,7 @@ In the State class we will have:
 * 3 `Tween()` animations with 3 `CurvedAnimation()` classes in the `initState()`
 
     
-    @override
+      @override
       void initState() {
         super.initState();
         startTime();  
@@ -334,14 +334,14 @@ In the State class we will have:
 * 3 `Positioned()` widgets
 
     
-    /**
-    * I Customized 3 widgets so that the `build` function can be easier 
-    * to read.
-    * In the `AnimatedBulder()` property, `builder:`, I used the `Positioned()`
-    * widget in order to position the differnt cube images with it's `top:`,
-    * `right:` and `left:` properties.
-    **/
-    Widget buildCubeTopAnimation() {
+      /**
+      * I Customized 3 widgets so that the `build` function can be easier 
+      * to read.
+      * In the `AnimatedBulder()` property, `builder:`, I used the `Positioned()`
+      * widget in order to position the differnt cube images with it's `top:`,
+      * `right:` and `left:` properties.
+      **/
+      Widget buildCubeTopAnimation() {
         return AnimatedBuilder(
           animation: cubeTopAnimation,
           builder: (context, child) {
