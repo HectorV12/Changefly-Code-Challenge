@@ -19,9 +19,10 @@ LaunchScreen4: Animation + FadeInImage
 
 and ends with a Home screen.
 
-##main.dart
+## main.dart
+
 In the `main.dart` file there is a `Stateful` widget and in its `build`
-widget/function it returns a `MaterialApp`. Within the `MaterialApp` properties
+function it returns a `MaterialApp`. Within the `MaterialApp` properties
 we use the the `routes:` to produce named routes to navigate through each
 of the launch screens.
 
@@ -43,7 +44,7 @@ of the launch screens.
               },
 
 The forward slash `'/'` string is considered the initial route. Then
-named routed for each launch screen and the home screen.
+named routes for each launch screen and the home screen.
 
 Also for error handling I used `onUnknownRoute:` just in case an error
 happens when navigating to each route.
@@ -54,7 +55,7 @@ happens when navigating to each route.
             );
           },
 
-##launch_screen1.dart
+## launch_screen1.dart
 
 In this file I start off with a `Stateful` widget and it's state class
 `initState()` is used to asynchronously start the `startTime()` function
@@ -84,7 +85,7 @@ effect:
 Customizing the `build` function is what gives each Launch screen
 its unique style. In the `build` function, it returns a `Scaffold`
 with `body: Center` and a `child: Column` then in its `childern:`
-property I give it 2 images using `Image.asset()`
+property I give it 2 images using `Image.asset()`widget.
 
 The following code is what gives `LaunchScreen1` its style of a
 static image launch screen.
@@ -113,7 +114,7 @@ static image launch screen.
 For Decoration Purposes, I scaled the images to a smaller size
 with `scale:` to give it a better look.
 
-##launch_screen2.dart
+## launch_screen2.dart
 
 In `launch_screen2.dart` file, just as `launch_screen1.dart` file,
 it starts with the same code in its State class but its `Duration`
@@ -166,7 +167,7 @@ bottom.
 
 ![](changefly1.gif)
 
-##launch_screen3.dart
+## launch_screen3.dart
 
 Same launch screen effect with the difference in `Duration(seconds: 2)` 
 and different named route to lead to `/LaunchScreen4`.
@@ -219,7 +220,7 @@ For Decoration Purposes, in `FadeInImage()` widgets's properties I've added
 `fadeOutDuration:` was used to fade out the placeholder image with a duration
 of 800 milliseconds.
 
-##launch_screen4.dart
+## launch_screen4.dart
 
 In the `launch_screen4.dart` file we still have the same launch screen effect
 with the difference in `Duration(seconds: 3)` and navigates to `/HomeScreen` 
@@ -442,7 +443,7 @@ the `build` returns a `Scaffold()` with a `body:` of `Center()` and its
               ],
               ...
 
-##homescreen.dart
+## homescreen.dart
 
 Finally in the `HomeScreen` there's a `Stateless` widget with one customized
 `DecorationImage` widget, used for making the Changfly cube into a faded
@@ -486,7 +487,7 @@ cube and a `actions:` icon of the Changefly cube also.
          );
       }
       
-##Bonus
+## Bonus
 
 ![](changefly_icon.jpg)
 
