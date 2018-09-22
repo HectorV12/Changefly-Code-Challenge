@@ -4,8 +4,7 @@ A ChangeFly Code Challenge in Flutter.
 
 Result:
  
-![](Changefly.gif)
-<img src="Changefly.gif" width="70" height="150" />
+<img src="Changefly.gif" width="280" height="600" />
 
 This Flutter App has 4 different Launch Screens (or Splash Screens)
 each with different styles
@@ -167,6 +166,7 @@ centered making the animation in the gif asset seem more at the
 bottom.
 
 ![](changefly1.gif)
+<img src="changefly1.gif" width="150" height="150" />
 
 ## launch_screen3.dart
 
