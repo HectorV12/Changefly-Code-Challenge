@@ -165,7 +165,8 @@ towards the center since the recording was not symmetrically
 centered making the animation in the gif asset seem more at the
 bottom.
 
-![github-small](changefly1.gif)
+![](changefly1.gif)
+<gif src="changelfy1.gif" width="256" height="256">
 
 ## launch_screen3.dart
 
