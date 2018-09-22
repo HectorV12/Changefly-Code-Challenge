@@ -22,7 +22,7 @@ and ends with a Home screen.
 ## main.dart
 
 In the `main.dart` file there is a `Stateful` widget and in its `build`
-widget/function it returns a `MaterialApp`. Within the `MaterialApp` properties
+function it returns a `MaterialApp`. Within the `MaterialApp` properties
 we use the the `routes:` to produce named routes to navigate through each
 of the launch screens.
 
@@ -44,7 +44,7 @@ of the launch screens.
               },
 
 The forward slash `'/'` string is considered the initial route. Then
-named routed for each launch screen and the home screen.
+named routes for each launch screen and the home screen.
 
 Also for error handling I used `onUnknownRoute:` just in case an error
 happens when navigating to each route.
@@ -85,7 +85,7 @@ effect:
 Customizing the `build` function is what gives each Launch screen
 its unique style. In the `build` function, it returns a `Scaffold`
 with `body: Center` and a `child: Column` then in its `childern:`
-property I give it 2 images using `Image.asset()`
+property I give it 2 images using `Image.asset()`widget.
 
 The following code is what gives `LaunchScreen1` its style of a
 static image launch screen.
