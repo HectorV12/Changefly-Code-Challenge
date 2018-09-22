@@ -4,7 +4,7 @@ A ChangeFly Code Challenge in Flutter.
 
 Result:
  
-<img src="Changefly.gif" width="250" height="500" /> (NOT ACTUAL SPEED)
+<img src="Changefly.gif" width="270" height="480" />
 
 This Flutter App has 4 different Launch Screens (or Splash Screens)
 each with different styles
@@ -445,7 +445,7 @@ the `build` returns a `Scaffold()` with a `body:` of `Center()` and its
 
 ## homescreen.dart
 
-<img src="CFBackground.jpg" width="250" height="500" />
+<img src="CFBackground.jpg" width="270" height="480" />
 
 Finally in the `HomeScreen` there's a `Stateless` widget with one customized
 `DecorationImage` widget, used for making the Changfly cube into a faded
@@ -496,11 +496,11 @@ cube and a `actions:` icon of the Changefly cube also.
 I changed the Flutter launcher icon to the Changefly cube, as well as the 
 name under the launcher icon.
 
-Click link for instructions to change launcher icon:
+### Click link for instructions to change launcher icon:
  
 [flutter_launcher_icons](https://pub.dartlang.org/packages/flutter_launcher_icons#-installing-tab-)
  
-Click link for instructions to change launcher name:
+### Click link for instructions to change launcher name:
  
 [flutter_launcher_name](https://stackoverflow.com/questions/46694153/changing-the-project-name#)
 
