@@ -13,9 +13,9 @@ LaunchScreen1: Static image
 
 LaunchScreen2: gif 
 
-LaunchScreen3: FadeInImage
+LaunchScreen3: `FadeInImage()`
 
-LaunchScreen4: Animation + FadeInImage
+LaunchScreen4: Animations + `FadeInImage()`
 
 and ends with a Home screen.
 
