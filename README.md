@@ -4,8 +4,7 @@ A ChangeFly Code Challenge in Flutter.
 
 Result:
  
-<img src="Changefly.gif" width="250" height="500" />
-(NOT ACTUAL SPEED)
+<img src="Changefly.gif" width="250" height="500" /> (NOT ACTUAL SPEED)
 
 This Flutter App has 4 different Launch Screens (or Splash Screens)
 each with different styles
