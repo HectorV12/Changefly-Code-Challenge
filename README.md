@@ -165,7 +165,7 @@ towards the center since the recording was not symmetrically
 centered making the animation in the gif asset seem more at the
 bottom.
 
-![](changefly1.gif "Logo Title Text 1")
+![](changefly1.gif)
 
 ## launch_screen3.dart
 
