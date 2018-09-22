@@ -445,7 +445,7 @@ the `build` returns a `Scaffold()` with a `body:` of `Center()` and its
 
 ## homescreen.dart
 
-![](CFBackground.jpg)
+<img src="CFBackground.jpg" width="250" height="500" />
 
 Finally in the `HomeScreen` there's a `Stateless` widget with one customized
 `DecorationImage` widget, used for making the Changfly cube into a faded
