@@ -166,7 +166,7 @@ centered making the animation in the gif asset seem more at the
 bottom.
 
 ![](changefly1.gif)
-<gif src="changelfy1.gif" width="256" height="256">
+<img src="changelfy1.gif" width="256" height="256">
 
 ## launch_screen3.dart
 
